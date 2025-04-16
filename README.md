@@ -12,6 +12,13 @@ I have uploaded a coarse version, and I will clean up the codes upon my availabi
 # Requirements
 You can run it on a general CUDA environment without installing further libraries if you only use PointNet as the backbone. For advanced backbones like PointNet++/KPConv, etc, you need to prepare the settings with their instructions.
 
+# Dataset Preparation
+
+For ModelNet10, you can download the h5 files [Google Drive](https://drive.google.com/drive/folders/1O33tEkhU_zva2Gg8qfLgPBvkLOnOUDii?usp=sharing) and directly put them in the repo.
+
+For ModelNet40 and ScanObjectNN, you can download them in their official repos, I will write instructions soon.
+
+
 # Training
 Run
 ```
@@ -31,11 +38,7 @@ python main_DM_pointnet.py  --dataset ScanObjectNN  --model PointNet  --ratio 0.
 ```
 
 
-# Dataset Preparation
 
-For ModelNet10, I have uploaded an h5 file in the repo, you can use it without any modification.
-
-For ModelNet40 and ScanObjectNN, you can download them in their official repos, I will write an instruction soon.
 
 # Visualization
 
